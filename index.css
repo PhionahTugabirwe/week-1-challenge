@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  text-align: center;
+  height: 100px;
+  padding-top: 1rem;
+  padding: 1rem 1rem;
+  line-height: 35px;
+}
+span {
+  color: blue;
+}
+.profession {
+  color: aqua;
+}
+.prof {
+  color: brown;
+}
+.about {
+  text-align: center;
+  color: blue;
+  margin-top: 2rem;
+}
+p {
+  margin-left: 2rem;
+}
+.paragraph {
+  border: 2px dotted blue;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1rem;
+  margin-bottom: 2rem;
+}
+.icons {
+  text-align: center;
+}
+.icons img:hover {
+  transform: scale(0.5);
+  cursor: pointer;
+}
+.icons img {
+  transition: all 0.8s;
+}
+img {
+  width: 20px;
+  height: 25px;
+  margin-top: 1rem;
+}
+.images {
+  margin-left: 2rem;
+  text-align: center;
+}
+.images img:hover {
+  transform: scale(0.9);
+}
+.images img {
+  transition: 1s;
+}
+.image img:hover {
+  transform: scale(0.9);
+}
+.image img {
+  transition: 1s;
+}
+.computer {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  transform: rotate(10deg);
+}
+.comp {
+  width: 200px;
+  height: 200px;
+  margin-left: 3rem;
+  border: 2px dotted red;
+  transform: rotate(-10deg);
+}
+.image {
+  text-align: center;
+  margin-top: 2rem;
+}
+.mypic {
+  width: 150px;
+  height: auto;
+}
+.pic {
+  width: 150px;
+  height: auto;
+  margin-left: 3rem;
+  border: 2px solid blue;
+  border-top-left-radius: 50px;
+}
+.buttons {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.but1 {
+  background-color: blue;
+  border: 2px solid red;
+  color: white;
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+}
+.but2 {
+  background-color: white;
+  color: blue;
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid aqua;
+}
+.but1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.but1 a:hover {
+  color: rgb(49, 226, 43);
+}
+button:hover {
+  background-color: rgb(165, 42, 159);
+}
