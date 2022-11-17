@@ -31,6 +31,7 @@ span {
 }
 p {
   margin-left: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .paragraph {
   border: 2px dotted blue;
@@ -106,30 +107,27 @@ img {
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
-.but1 {
+.link {
   background-color: blue;
-  border: 2px solid red;
-  color: white;
+  color: red;
   border-radius: 50px;
   width: 100px;
-  height: 30px;
-}
-.but2 {
-  background-color: white;
-  color: blue;
-  border-radius: 50px;
-  width: 100px;
-  height: 30px;
-  border: 2px solid aqua;
-}
-.but1 a {
-  color: white;
+  height: 50px;
+  border: none;
   text-decoration: none;
+  padding: 20px;
 }
-
-.but1 a:hover {
-  color: rgb(49, 226, 43);
+.link:hover {
+  color: rgb(56, 165, 42);
 }
 button:hover {
   background-color: rgb(165, 42, 159);
+}
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
 }
